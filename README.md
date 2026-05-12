@@ -93,7 +93,3 @@ src/
 ## Responsive Design
 
 The layout is mobile-first. Destination cards use a single column on small screens, two columns on tablets, and three columns on desktop screens. The navbar wraps naturally on smaller screens, and the booking form changes from one column to two columns on wider screens.
-
-## Beginner Notes
-
-This project avoids Redux, Context API, TypeScript, routing, and complex patterns. Each component has one clear responsibility, making the code easier to read, debug, and explain during an assessment.
