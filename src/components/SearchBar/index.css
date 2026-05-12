@@ -1,0 +1,26 @@
+.search-box {
+  width: min(100%, 560px);
+  margin: 0 auto 28px;
+}
+
+.search-box label {
+  display: block;
+  margin-bottom: 8px;
+  color: #263f45;
+  font-weight: 700;
+}
+
+.search-box input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid #cddfdd;
+  border-radius: 6px;
+  padding: 12px 14px;
+  color: #172026;
+  background-color: #ffffff;
+}
+
+.search-box input:focus {
+  border-color: #0f9aa5;
+  outline: 3px solid rgba(15, 154, 165, 0.16);
+}

@@ -1,0 +1,52 @@
+.destination-card {
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 1px solid #dbe8e6;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(20, 51, 58, 0.08);
+}
+
+.destination-image {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.destination-info {
+  padding: 18px;
+}
+
+.card-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-title-row h3 {
+  margin: 0;
+  color: #14333a;
+  font-size: 20px;
+}
+
+.rating {
+  flex: 0 0 auto;
+  color: #0f5f64;
+  font-weight: 800;
+}
+
+.location {
+  margin: 8px 0 16px;
+  color: #5f7075;
+}
+
+.tag {
+  display: inline-flex;
+  border-radius: 6px;
+  padding: 7px 10px;
+  color: #0f5f64;
+  background-color: #e7f7f4;
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,0 +1,30 @@
+.destinations-grid {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.message {
+  margin: 24px 0;
+  color: #4a5a60;
+  text-align: center;
+  font-weight: 700;
+}
+
+.error-message {
+  color: #b33d2e;
+}
+
+@media (min-width: 700px) {
+  .destinations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .destinations-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

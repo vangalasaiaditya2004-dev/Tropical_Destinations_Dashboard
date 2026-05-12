@@ -1,0 +1,96 @@
+.hero-section {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 42px;
+  align-items: center;
+  overflow: hidden;
+  min-height: 600px;
+  padding: 70px 20px 90px;
+  background-color: #ffffff;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 560px);
+}
+
+.hero-kicker {
+  margin: 0 0 14px;
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-content h1 {
+  max-width: 520px;
+  margin: 0;
+  color: #000000;
+  font-size: 44px;
+  line-height: 1.08;
+  font-weight: 800;
+}
+
+.hero-description {
+  max-width: 480px;
+  margin: 20px 0 28px;
+  color: #4c4c4c;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.hero-section .primary-button {
+  border-radius: 24px;
+  padding: 13px 30px;
+  background-color: #f47b45;
+}
+
+.hero-image-area {
+  position: relative;
+  min-height: 320px;
+}
+
+.hero-traveler-image {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: min(82vw, 340px);
+  height: min(82vw, 340px);
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 700px) {
+  .hero-section {
+    padding: 90px 48px 110px;
+  }
+
+  .hero-content h1 {
+    font-size: 58px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    grid-template-columns: 1fr 0.9fr;
+    min-height: 650px;
+    padding: 95px 72px 120px;
+  }
+
+  .hero-content h1 {
+    font-size: 68px;
+  }
+
+  .hero-image-area {
+    min-height: 460px;
+  }
+
+  .hero-traveler-image {
+    width: 420px;
+    height: 420px;
+  }
+
+}
